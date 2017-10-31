@@ -21,5 +21,3 @@ if new_branch_name not in remotes_branches:
                       author=author, committer=committer)
     origin.push(new_branch)
     backup_branch.checkout()
-
-
